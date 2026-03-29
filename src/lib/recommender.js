@@ -1,5 +1,5 @@
-import { LEVEL_MAP } from './constants';
-import { behaviorModifier, budgetScore, categoryScore, colorScore, motiveModifier, relationModifier, riskPenalty, sceneScore, styleScore } from './scoring';
+import { LEVEL_MAP } from './constants.js';
+import { behaviorModifier, budgetScore, categoryScore, colorScore, motiveModifier, relationModifier, riskPenalty, sceneScore, styleScore } from './scoring.js';
 
 function getLevel(score) {
   if (score >= 90) return LEVEL_MAP.STRONG;
