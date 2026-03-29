@@ -1,0 +1,11 @@
+{
+  "name": "ava-assistant-web",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "python3 -m http.server 4173",
+    "dev": "python3 -m http.server 4173"
+  },
+  "description": "Ava personal client assistant website"
+}
