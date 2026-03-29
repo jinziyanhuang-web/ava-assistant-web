@@ -1,5 +1,5 @@
-import { BUDGET_MAP } from './constants';
-import { countIntersection, daysBetween, hasTag, mapCustomerCategoryTags } from './helpers';
+import { BUDGET_MAP } from './constants.js';
+import { countIntersection, daysBetween, hasTag, mapCustomerCategoryTags } from './helpers.js';
 
 export function styleScore(customer, product, reasons) {
   const matches = countIntersection(customer.styleTags, product.styleTags);
