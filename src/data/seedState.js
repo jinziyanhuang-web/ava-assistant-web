@@ -1,6 +1,6 @@
-import { customersSeed } from './customers';
-import { productsSeed } from './products';
-import { clone, genId } from '../lib/helpers';
+import { customersSeed } from './customers.js';
+import { productsSeed } from './products.js';
+import { clone, genId } from '../lib/helpers.js';
 
 const followupsSeed = [
   { id: genId('fol'), customerId: 'C001', contactDate: '2026-03-25T09:00:00.000Z', contactMethod: '微信', content: '推荐了两款通勤耳钉，客户说月底看看', intentionLevel: 'medium', nextFollowupAt: '2026-03-31T10:00:00.000Z', createdAt: '2026-03-25T09:00:00.000Z' },
