@@ -1,4 +1,4 @@
-import { ensureArray } from './helpers';
+import { ensureArray } from './helpers.js';
 
 function isValidDateString(value) {
   if (!value) return true;
